@@ -3,10 +3,10 @@
 
 windows系统 PowerShell
 添加临时性环境变量
-
+'''
 # 用您的 DashScope API Key 代替 YOUR_DASHSCOPE_API_KEY
 $env:DASHSCOPE_API_KEY = "YOUR_DASHSCOPE_API_KEY"
-
+'''
 您可以在当前会话运行以下命令检查环境变量是否生效。
 echo $env:DASHSCOPE_API_KEY
 
