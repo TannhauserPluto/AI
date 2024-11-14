@@ -58,6 +58,14 @@ venv\Scripts\activate :无法加载文件C:\Users\Administrator\.venv\Scripts\Ac
  ```powershell
  source .venv/bin/activate
 ```
+### 安装模型调用SDK
+您可以通过OpenAI的Python SDK或DashScope的Python SDK来调用百炼平台上的模型。
+
+安装OpenAI Python SDK安装DashScope Python SDK
+通过运行以下命令安装DashScope Python SDK：
+ ```powershell
+pip3 install -U dashscope
+```
 
 ## 调用大模型api
 openAI Python SDK 参考以下代码发送API请求
