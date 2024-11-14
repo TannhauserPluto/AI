@@ -32,12 +32,14 @@ echo $env:DASHSCOPE_API_KEY
 python -m venv .venv
 ```
 
-激活虚拟环境创建虚拟环境
+### 激活虚拟环境创建虚拟环境
 
 您可以运行以下命令，创建一个命名为.venv的虚拟环境：
-
+```powershell
 # 如果运行失败，您可以将python替换成python3再运行
 python -m venv .venv
+```
+
 - 如果您使用windows系统，请运行以下命令来激活虚拟环境：
  ```powershell
  .venv\Scripts\activate
